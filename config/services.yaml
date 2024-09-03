@@ -1,0 +1,35 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/services
+
+- Coding:
+    - OneDev:
+        icon: /icons/onedev.png
+        href: http://r3ap3rpy.asuscomm.com:6610/~login
+        description: VCS are awesome
+    - Vault:
+        icon: /icons/vault.png
+        href: https://r3ap3rpy.asuscomm.com:8200/ui/
+        description: HashiCorp Vault
+
+- FileSharing:
+    - PyDio:
+        icon: /icons/pydio.png
+        href: https://r3ap3rpy.asuscomm.com:8080
+        description: Let's share
+
+- Torrent:
+    - Transmission:
+        icon: /icons/tm.png
+        href: http://r3ap3rpy.asuscomm.com:9091/transmission
+        description: Totally legal
+
+- Portfolio:
+    - r3ap3rpy:
+        icon: /icons/pny.png
+        href: https://r3ap3rpy.pythonanywhere.com
+        description: Portfolio site
+    - shortenpy:
+        icon: /icons/pny.png
+        href: https://shortenpy.pythonanywhere.com
+        description: URL shortener

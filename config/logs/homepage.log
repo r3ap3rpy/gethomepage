@@ -1,0 +1,69 @@
+[2024-09-02T15:59:32.269Z] info: docker.yaml was copied to the config folder
+[2024-09-02T15:59:32.271Z] info: services.yaml was copied to the config folder
+[2024-09-02T15:59:32.271Z] info: bookmarks.yaml was copied to the config folder
+[2024-09-02T15:59:32.280Z] info: widgets.yaml was copied to the config folder
+[2024-09-02T15:59:32.281Z] info: custom.css was copied to the config folder
+[2024-09-02T15:59:32.281Z] info: custom.js was copied to the config folder
+[2024-09-02T15:59:32.421Z] info: kubernetes.yaml was copied to the config folder
+[2024-09-02T17:29:53.306Z] error: <service-helpers> Error getting services from Docker server 'my-docker': Error: connect ECONNREFUSED 127.0.0.1:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 2375
+}
+[2024-09-02T17:29:53.702Z] error: <service-helpers> Error getting services from Docker server 'my-docker': Error: connect ECONNREFUSED 127.0.0.1:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 2375
+}
+[2024-09-02T17:29:54.015Z] error: <service-helpers> Error getting services from Docker server 'my-docker': Error: connect ECONNREFUSED 127.0.0.1:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 2375
+}
+[2024-09-02T17:31:45.024Z] error: <service-helpers> Error getting services from Docker server 'my-docker': Error: connect ECONNREFUSED 127.0.0.1:2375
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 2375
+}
+[2024-09-02T18:18:54.661Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-09-02T18:18:54.664Z] error: end of the stream or a document separator is expected (16:1)
+
+ 13 |     showSearchSuggestions: true
+ 14 |     target: _blank
+ 15 | 
+ 16 | widget:
+------^
+ 17 |   type: pihole
+ 18 |   url: http://localhost:81
+[2024-09-02T18:18:55.054Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-09-02T18:18:55.056Z] error: end of the stream or a document separator is expected (16:1)
+
+ 13 |     showSearchSuggestions: true
+ 14 |     target: _blank
+ 15 | 
+ 16 | widget:
+------^
+ 17 |   type: pihole
+ 18 |   url: http://localhost:81
+[2024-09-02T18:18:55.330Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-09-02T18:18:55.332Z] error: end of the stream or a document separator is expected (16:1)
+
+ 13 |     showSearchSuggestions: true
+ 14 |     target: _blank
+ 15 | 
+ 16 | widget:
+------^
+ 17 |   type: pihole
+ 18 |   url: http://localhost:81

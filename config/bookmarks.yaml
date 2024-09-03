@@ -1,0 +1,14 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/bookmarks
+
+- EtherPresence:
+    - Github:
+        - icon: /icons/gh.png
+          href: https://github.com/r3ap3rpy
+    - Mastodon:
+        - icon: /icons/mastodon.png
+          href: https://mastodon.social/@r3ap3rpy
+    - YouTube:
+        - icon: /icons/yt.png
+          href: https://youtube.com/@r3ap3rpy

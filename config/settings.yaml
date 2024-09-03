@@ -1,0 +1,23 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/settings
+title: r3ap3rpy's Home
+theme: dark
+color: slate
+hideVersion: true
+background: 
+  image: /images/bg.png
+  blur: sm
+  saturate: 50
+  brightness: 50
+  opacity: 50
+layout:
+  EtherPresence:
+    style: row
+    columns: 3
+quicklaunch:
+  searchDescriptions: true
+  hideInternetSearch: true
+  showSearchSuggestions: true
+  hideVisitURL: true
+  provider: google 
